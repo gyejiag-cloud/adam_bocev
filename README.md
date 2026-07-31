@@ -1,6 +1,6 @@
-# FounderOS — Marketing Website
+# Apex Synthesis — Marketing Website
 
-A complete, production-ready marketing site for **FounderOS**, the AI venture intelligence
+A complete, production-ready marketing site for **Apex Synthesis**, the AI venture intelligence
 platform. Static HTML/CSS/JS — no build step, no dependencies, no framework.
 
 ## Run it
@@ -126,7 +126,8 @@ a new tab with `rel="noopener noreferrer"`.
    - The other three team members on `about.html` (Nadia Karim, Jonas Möller, Lucia Chen)
    - Company names in the sample reports and dashboards (Northbeam Labs, Ledgerline, etc.)
    - Statistics in the `.stats` bands
-   - Email addresses (currently `@founderos.example`)
+   - Email addresses point at `@apexsynthesis.com` — make sure `hello@`, `partners@`
+     and `security@` mailboxes actually exist before launch
 3. **Legal pages.** Privacy, Terms, Security and Responsible AI in the footer point to `#`.
 4. **Social links** in the footer point to `#`.
 5. **Compliance claims.** SOC 2, data residency and the 99.9% SLA are stated on

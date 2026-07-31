@@ -1,5 +1,5 @@
 /* ==========================================================================
-   FounderOS — Design System
+   Apex Synthesis — Design System
    Venture Intelligence Platform
    ========================================================================== */
 
@@ -846,6 +846,8 @@ tbody tr:hover { background: rgba(255,255,255,.018); }
 
 @media (max-width: 620px) {
   .wrap { width: calc(100% - 2.25rem); }
+  .logo { gap: .5rem; }
+  .logo__text { font-size: .96rem; }
   .agents, .grid-2, .grid-3, .grid-4, .quotes, .plans, .team, .steps, .form__row { grid-template-columns: 1fr; }
   .step::after { display: none; }
   .plan--featured { order: 0; }
