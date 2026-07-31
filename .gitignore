@@ -12,3 +12,5 @@ Desktop.ini
 # Logs & temp
 *.log
 *.tmp
+.pages-output/
+.wrangler/
