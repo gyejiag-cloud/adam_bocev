@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FounderOS — AI Venture Intelligence for Startups &amp; Investors</title>
+<meta name="description" content="FounderOS is an AI venture intelligence platform. A network of specialised AI agents analyses your startup like a VC partnership would — producing an Investment Readiness Report, a Founder Score, and investor-fit recommendations in minutes.">
+<meta name="theme-color" content="#06080F">
+<meta property="og:title" content="FounderOS — AI Venture Intelligence Platform">
+<meta property="og:description" content="Know what investors will say before you walk into the room.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%236E8BFF'/><path d='M10 22V10h11M10 16.5h8' stroke='%23fff' stroke-width='2.4' fill='none' stroke-linecap='round'/></svg>">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<header class="nav">
+  <div class="wrap nav__inner">
+    <a href="index.html" class="logo" aria-label="FounderOS home">
+      <svg class="logo__mark" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+        <rect width="32" height="32" rx="9" fill="url(#lg)"/>
+        <path d="M10.5 22.5V9.5h11" stroke="#fff" stroke-width="2.5" stroke-linecap="round"/>
+        <path d="M10.5 16.4h7.6" stroke="#fff" stroke-width="2.5" stroke-linecap="round"/>
+        <circle cx="23" cy="22.2" r="2.6" fill="#33E0AE"/>
+        <defs><linearGradient id="lg" x1="0" y1="0" x2="32" y2="32">
+          <stop stop-color="#7D97FF"/><stop offset="1" stop-color="#4C69E8"/>
+        </linearGradient></defs>
+      </svg>
+      <span class="logo__text">Founder<span>OS</span></span>
+    </a>
+
+    <nav class="nav__links" aria-label="Primary">
+      <a href="platform.html">Platform</a>
+      <a href="founders.html">For Founders</a>
+      <a href="investors.html">For Investors</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="about.html">Company</a>
+    </nav>
+
+    <div class="nav__actions">
+      <a href="contact.html" class="btn btn--quiet">Sign in</a>
+      <a href="contact.html" class="btn btn--primary btn--sm">Book a demo</a>
+      <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false"><span></span></button>
+    </div>
+  </div>
+</header>
+
+<div class="nav__mobile">
+  <a href="platform.html">Platform</a>
+  <a href="founders.html">For Founders</a>
+  <a href="investors.html">For Investors</a>
+  <a href="pricing.html">Pricing</a>
+  <a href="about.html">Company</a>
+  <a href="contact.html">Contact</a>
+  <a href="contact.html" class="btn btn--primary btn--block">Book a demo</a>
+</div>
+
+<main>
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="wrap hero__grid">
+    <div class="reveal">
+      <span class="pill">
+        <span class="tag">New</span>
+        <b>Multi-Agent Analysis v3</b> — now with live market signals
+      </span>
+
+      <h1>Know what investors<br>will say <span class="gradient-text">before you<br>walk into the room.</span></h1>
+
+      <p class="lead">
+        FounderOS runs your startup through a network of specialised AI agents that think
+        like a venture partnership — market, financials, product, competition, growth.
+        In minutes you get an Investment Readiness Report, a VC-style score, and the
+        exact list of things to fix before you raise.
+      </p>
+
+      <div class="btn-row">
+        <a href="contact.html" class="btn btn--primary btn--lg">
+          Analyse my startup
+          <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+        <a href="platform.html" class="btn btn--ghost btn--lg">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+          See how it works
+        </a>
+      </div>
+
+      <p class="hero__note">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#33E0AE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
+        Free readiness snapshot · No credit card · Your documents are never used for training
+      </p>
+    </div>
+
+    <div class="mock-wrap reveal" data-d="2">
+      <div class="mock">
+        <div class="mock__bar">
+          <div class="mock__dots"><i></i><i></i><i></i></div>
+          <span class="mock__title">investment-readiness-report.pdf</span>
+          <span class="mock__live"><span class="dot dot--pulse"></span> Live</span>
+        </div>
+
+        <div class="mock__body">
+          <div class="score-row">
+            <div class="dial" data-score="78">
+              <svg viewBox="0 0 116 116" aria-hidden="true">
+                <defs><linearGradient id="dialGrad" x1="0" y1="0" x2="1" y2="1">
+                  <stop stop-color="#6E8BFF"/><stop offset="1" stop-color="#33E0AE"/>
+                </linearGradient></defs>
+                <circle class="track" cx="58" cy="58" r="50"/>
+                <circle class="fill"  cx="58" cy="58" r="50"/>
+              </svg>
+              <div class="dial__val">
+                <b data-count>0</b>
+                <span>Founder Score</span>
+              </div>
+            </div>
+
+            <div class="score-meta">
+              <h4>Northbeam Labs</h4>
+              <p>Seed · B2B SaaS · Supply chain analytics</p>
+              <span class="badge badge--mint">Investment ready — Tier B+</span>
+            </div>
+          </div>
+
+          <div class="metrics">
+            <div class="metric">
+              <span class="metric__name">Market opportunity</span>
+              <span class="metric__num">86 / 100</span>
+              <span class="metric__bar" data-val="86"><i></i></span>
+            </div>
+            <div class="metric">
+              <span class="metric__name">Unit economics</span>
+              <span class="metric__num">81 / 100</span>
+              <span class="metric__bar" data-val="81"><i></i></span>
+            </div>
+            <div class="metric">
+              <span class="metric__name">Founder–market fit</span>
+              <span class="metric__num">92 / 100</span>
+              <span class="metric__bar" data-val="92"><i></i></span>
+            </div>
+            <div class="metric">
+              <span class="metric__name">Go-to-market efficiency</span>
+              <span class="metric__num">58 / 100</span>
+              <span class="metric__bar is-warn" data-val="58"><i class="is-warn"></i></span>
+            </div>
+          </div>
+
+          <div class="mock__foot">
+            <div class="avatars">
+              <i style="background:linear-gradient(135deg,#7D97FF,#4C69E8)">MI</i>
+              <i style="background:linear-gradient(135deg,#33E0AE,#12A47B)">FA</i>
+              <i style="background:linear-gradient(135deg,#FFC069,#E89A32)">PS</i>
+              <i style="background:linear-gradient(135deg,#FF7A8A,#D84A5E)">CI</i>
+              <i style="background:linear-gradient(135deg,#A78BFF,#6F4CE0)">VP</i>
+            </div>
+            <small>6 agents · 41 signals reviewed · 3 min 12 s</small>
+          </div>
+        </div>
+      </div>
+
+      <div class="float-chip float-chip--a">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#33E0AE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l6-6 4 4 8-8"/><path d="M17 7h4v4"/></svg>
+        <div><b>+14 pts</b><small>since last quarter</small></div>
+      </div>
+
+      <div class="float-chip float-chip--b">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#6E8BFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 00-4-4H6a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 00-3-3.87"/></svg>
+        <div><b>23 investor matches</b><small>thesis-aligned, Seed stage</small></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TRUST ============ -->
+<section class="trust">
+  <div class="wrap reveal">
+    <p class="trust__label">Trusted by founders, funds and accelerator programmes</p>
+    <div class="trust__row">
+      <span class="trust__item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 20h18M6 20V9l6-5 6 5v11"/></svg> Meridian Ventures</span>
+      <span class="trust__item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M12 3v18M3 12h18"/></svg> Northwind Capital</span>
+      <span class="trust__item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2l9 5v10l-9 5-9-5V7z"/></svg> Halcyon Labs</span>
+      <span class="trust__item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="4"/><path d="M8 12h8"/></svg> Ardent Accelerator</span>
+      <span class="trust__item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 19V5l8 6 8-6v14"/></svg> Vantage Angels</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROBLEM ============ -->
+<section class="section">
+  <div class="wrap">
+    <div class="sec-head sec-head--center reveal">
+      <span class="eyebrow">The fundraising gap</span>
+      <h2>Founders guess. Investors skim.<br>Good companies get missed.</h2>
+      <p>The average seed round takes five months and eighty conversations. Most of those
+         conversations fail for reasons a partner could have named in ten minutes — and
+         never told you.</p>
+    </div>
+
+    <div class="grid grid-3">
+      <article class="card card--glow reveal" data-d="1">
+        <div class="card__icon card__icon--amber">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 8v5M12 16.5h.01"/></svg>
+        </div>
+        <h3>Founders raise blind</h3>
+        <p>You rewrite the deck eleven times on vibes. Nobody tells you the real objection —
+           that your CAC payback is 19 months and your TAM slide double-counts. You find out
+           after the sixth "we'll pass, but keep us posted."</p>
+      </article>
+
+      <article class="card card--glow reveal" data-d="2">
+        <div class="card__icon card__icon--amber">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15V6a2 2 0 00-2-2H5a2 2 0 00-2 2v9M3 15h18M3 15l2 5h14l2-5"/></svg>
+        </div>
+        <h3>Investors drown in decks</h3>
+        <p>A single seed fund sees 2,000+ decks a year and writes maybe fifteen cheques.
+           Screening is manual, inconsistent between partners, and biased toward
+           whoever writes the smoothest narrative.</p>
+      </article>
+
+      <article class="card card--glow reveal" data-d="3">
+        <div class="card__icon card__icon--amber">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v6M12 16v6M4.9 4.9l4.2 4.2M14.9 14.9l4.2 4.2M2 12h6M16 12h6"/></svg>
+        </div>
+        <h3>Programmes fly on instinct</h3>
+        <p>Accelerators and university funds track cohorts in spreadsheets. There's no
+           consistent measure of whether a company actually got more fundable over
+           twelve weeks — only whether the founder sounded more confident.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ AGENTS ============ -->
+<section class="section section--alt" id="agents">
+  <div class="wrap">
+    <div class="sec-head sec-head--center reveal">
+      <span class="eyebrow">Multi-agent architecture</span>
+      <h2>Not one model with a long prompt.<br>An <span class="gradient-text">investment committee.</span></h2>
+      <p>Six specialised agents examine your company independently — each with its own tools,
+         data sources and evaluation rubric — then argue their way to a single recommendation,
+         exactly the way a partnership does on a Monday morning.</p>
+    </div>
+
+    <div class="agents">
+      <article class="agent reveal" data-d="1">
+        <div class="agent__top">
+          <div class="agent__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a15 15 0 010 18a15 15 0 010-18"/></svg></div>
+          <span class="agent__id">AGT-01</span>
+        </div>
+        <h4>Market Intelligence Agent</h4>
+        <p>Sizes the opportunity bottom-up, validates TAM/SAM/SOM claims against third-party
+           data, and tracks the regulatory and macro shifts moving your category.</p>
+        <div class="agent__tags"><span>TAM modelling</span><span>Trend signals</span><span>Timing</span></div>
+      </article>
+
+      <article class="agent reveal" data-d="2">
+        <div class="agent__top">
+          <div class="agent__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 15l4-5 3 3 5-7"/></svg></div>
+          <span class="agent__id">AGT-02</span>
+        </div>
+        <h4>Financial Analyst Agent</h4>
+        <p>Rebuilds your model from first principles — burn, runway, gross margin, CAC payback,
+           LTV/CAC, magic number — and flags every assumption that won't survive diligence.</p>
+        <div class="agent__tags"><span>Unit economics</span><span>Runway</span><span>Cohorts</span></div>
+      </article>
+
+      <article class="agent reveal" data-d="3">
+        <div class="agent__top">
+          <div class="agent__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><path d="M14 17.5h7M17.5 14v7"/></svg></div>
+          <span class="agent__id">AGT-03</span>
+        </div>
+        <h4>Product Strategy Agent</h4>
+        <p>Assesses differentiation, defensibility and roadmap feasibility against the team
+           you actually have — and separates a real moat from a feature list.</p>
+        <div class="agent__tags"><span>Moat analysis</span><span>Roadmap</span><span>PMF signals</span></div>
+      </article>
+
+      <article class="agent reveal" data-d="1">
+        <div class="agent__top">
+          <div class="agent__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><circle cx="4.5" cy="6" r="2"/><circle cx="19.5" cy="6" r="2"/><circle cx="4.5" cy="18" r="2"/><circle cx="19.5" cy="18" r="2"/><path d="M6.3 7.2L10 10.4M17.7 7.2L14 10.4M6.3 16.8L10 13.6M17.7 16.8L14 13.6"/></svg></div>
+          <span class="agent__id">AGT-04</span>
+        </div>
+        <h4>Competitive Intelligence Agent</h4>
+        <p>Maps every credible competitor and adjacent entrant, tracks their funding and
+           hiring, and positions you honestly on the axes buyers actually care about.</p>
+        <div class="agent__tags"><span>Landscape</span><span>Positioning</span><span>Threat watch</span></div>
+      </article>
+
+      <article class="agent reveal" data-d="2">
+        <div class="agent__top">
+          <div class="agent__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L4.5 13H11l-1 9 8.5-11H12l1-9z"/></svg></div>
+          <span class="agent__id">AGT-05</span>
+        </div>
+        <h4>Growth Agent</h4>
+        <p>Audits acquisition channels, funnel conversion, retention curves and sales
+           efficiency to judge whether growth is repeatable or one lucky quarter.</p>
+        <div class="agent__tags"><span>Channels</span><span>Retention</span><span>Sales efficiency</span></div>
+      </article>
+
+      <article class="agent reveal" data-d="3">
+        <div class="agent__top">
+          <div class="agent__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l2.4 5.3 5.6.6-4.2 3.9 1.2 5.7L12 15.6 6.9 18.5l1.2-5.7L4 8.9l5.6-.6L12 3z"/></svg></div>
+          <span class="agent__id">AGT-06</span>
+        </div>
+        <h4>Venture Partner Agent</h4>
+        <p>Reads every other agent's findings, weighs the disagreements, and writes the
+           final memo — conviction level, key risks, and the terms it would defend.</p>
+        <div class="agent__tags"><span>Synthesis</span><span>Conviction</span><span>Memo</span></div>
+      </article>
+    </div>
+
+    <div class="synth reveal">
+      <div class="synth__ico">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><path d="M14 2v6h6M9 13h6M9 17h4"/></svg>
+      </div>
+      <div>
+        <h4>Output: a partner memo, not a chatbot answer</h4>
+        <p>Every run produces a structured Investment Readiness Report — score, strengths,
+           risks, valuation benchmarks, investor-fit list and a full narrative memo you can
+           forward as-is.</p>
+      </div>
+      <a href="platform.html" class="btn btn--ghost">See a sample report
+        <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ HOW IT WORKS ============ -->
+<section class="section">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow">How it works</span>
+      <h2>Upload on Monday.<br>Fix what matters by Friday.</h2>
+      <p>No consultants, no eight-week engagement. Connect what you already have and the
+         analysis starts immediately.</p>
+    </div>
+
+    <div class="steps">
+      <div class="step reveal" data-d="1">
+        <h4>Build your profile</h4>
+        <p>Drop in your deck, financial model, website, demo video, metrics export and
+           cap table. Everything is encrypted and scoped to your workspace alone.</p>
+      </div>
+      <div class="step reveal" data-d="2">
+        <h4>Agents run in parallel</h4>
+        <p>Six agents work simultaneously across market, financial, product, competitive
+           and growth dimensions — typically finishing inside four minutes.</p>
+      </div>
+      <div class="step reveal" data-d="3">
+        <h4>Read the memo</h4>
+        <p>Get your Founder Score, ranked strengths and risks, valuation benchmarks
+           against comparable rounds, and a prioritised list of fixes.</p>
+      </div>
+      <div class="step reveal" data-d="4">
+        <h4>Improve, then match</h4>
+        <p>Work the milestones, watch the score move, and when you cross the threshold
+           get introduced to investors whose thesis genuinely fits.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SPLIT: FOUNDER SCORE ============ -->
+<section class="section section--alt">
+  <div class="wrap">
+    <div class="split">
+      <div class="reveal">
+        <span class="eyebrow">The Founder Score</span>
+        <h2>A number that moves when your company does.</h2>
+        <p class="lead">Most diagnostic tools give you a static grade and a PDF. The Founder Score
+           is live — it recalculates every time you ship a milestone, close a customer, improve
+           retention or add a key hire.</p>
+        <ul class="checklist">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg><span><b>Nine weighted dimensions</b> — market, traction, economics, team, product, GTM, defensibility, governance, narrative.</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg><span><b>Stage-adjusted benchmarking</b> — a pre-seed company is never scored against a Series B rubric.</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg><span><b>Next-best-action guidance</b> — the platform tells you which single milestone moves the score most.</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg><span><b>Shareable readiness link</b> — send investors a verified snapshot instead of a static deck.</span></li>
+        </ul>
+        <div class="btn-row" style="margin-top:2rem">
+          <a href="founders.html" class="btn btn--primary">Explore the founder workspace
+            <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="split__media reveal" data-d="2">
+        <div class="panel">
+          <div class="panel__head">
+            <span class="dot dot--pulse"></span>
+            <h5>Analysis stream · Northbeam Labs</h5>
+            <span class="badge badge--blue">Run #14</span>
+          </div>
+          <div class="panel__body">
+            <div class="log">
+              <div class="log__line"><span class="t">00:04</span><span class="n"><b>Market Intelligence</b> — rebuilt TAM bottom-up: $4.1B, not $18B as stated</span><span class="s badge badge--amber">Revise</span></div>
+              <div class="log__line"><span class="t">00:31</span><span class="n"><b>Financial Analyst</b> — gross margin 74%, above median for stage</span><span class="s badge badge--mint">Strength</span></div>
+              <div class="log__line"><span class="t">01:07</span><span class="n"><b>Growth</b> — CAC payback 19 months; blended CAC rising 3 quarters running</span><span class="s badge badge--rose">Risk</span></div>
+              <div class="log__line"><span class="t">01:44</span><span class="n"><b>Competitive Intel</b> — two funded entrants since Q1; positioning still defensible</span><span class="s badge badge--blue">Note</span></div>
+              <div class="log__line"><span class="t">02:20</span><span class="n"><b>Product Strategy</b> — data network effect credible at ~400 accounts</span><span class="s badge badge--mint">Strength</span></div>
+              <div class="log__line"><span class="t">03:12</span><span class="n"><b>Venture Partner</b> — synthesis complete · conviction: <b>moderate-high</b></span><span class="s badge badge--mint">Done</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ AUDIENCE TABS ============ -->
+<section class="section">
+  <div class="wrap">
+    <div class="sec-head sec-head--center reveal">
+      <span class="eyebrow">Built for both sides of the table</span>
+      <h2>One framework. Two very different jobs.</h2>
+      <p>Founders use FounderOS to get ready. Investors use the same structured output to
+         decide faster. That shared language is the whole point.</p>
+    </div>
+
+    <div data-tabs class="reveal">
+      <div class="tabs tabs--center" role="tablist">
+        <button class="tab is-active" data-tab="f" role="tab" aria-selected="true">For Founders</button>
+        <button class="tab" data-tab="i" role="tab" aria-selected="false">For Investors</button>
+        <button class="tab" data-tab="a" role="tab" aria-selected="false">For Accelerators</button>
+      </div>
+
+      <div class="tab-panel is-active" data-panel="f">
+        <div class="grid grid-3">
+          <article class="card"><div class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9M16.5 3.5a2.1 2.1 0 013 3L7 19l-4 1 1-4z"/></svg></div><h4>Pitch &amp; narrative coaching</h4><p>Rewrite your deck section by section with an AI mentor trained on how partners actually read slides.</p></article>
+          <article class="card"><div class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1v22M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg></div><h4>Model stress-testing</h4><p>Every assumption challenged, every sensitivity run, before an associate does it for you.</p></article>
+          <article class="card"><div class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M23 7l-7 5 7 5V7z"/><rect x="1" y="5" width="15" height="14" rx="2"/></svg></div><h4>Simulated investor meetings</h4><p>Practise a partner grilling — including the questions you're hoping nobody asks.</p></article>
+          <article class="card"><div class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg></div><h4>Investor matching</h4><p>Ranked by thesis fit, stage, cheque size, geography and recent deployment activity.</p></article>
+          <article class="card"><div class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.1V12a10 10 0 11-5.9-9.1"/><path d="M22 4l-10 10-3-3"/></svg></div><h4>Milestone tracking</h4><p>A living roadmap of what to prove next, with the score impact of each item estimated up front.</p></article>
+          <article class="card"><div class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 016.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/></svg></div><h4>Document generation</h4><p>Data room checklist, one-pager, executive summary and update emails, generated from your live data.</p></article>
+        </div>
+      </div>
+
+      <div class="tab-panel" data-panel="i">
+        <div class="grid grid-3">
+          <article class="card"><div class="card__icon card__icon--mint"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h18M6 12h12M10 18h4"/></svg></div><h4>Standardised screening</h4><p>Every inbound deck returned as the same structured report, so partners compare like with like.</p></article>
+          <article class="card"><div class="card__icon card__icon--mint"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M9 9h6v6H9z"/></svg></div><h4>Comparison dashboards</h4><p>Rank a pipeline on any dimension — economics, growth quality, team, market timing.</p></article>
+          <article class="card"><div class="card__icon card__icon--mint"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></div><h4>Founder credibility analysis</h4><p>Track record, domain depth and team composition assessed against the problem being solved.</p></article>
+          <article class="card"><div class="card__icon card__icon--mint"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><path d="M14 2v6h6"/></svg></div><h4>Automated diligence summaries</h4><p>First-pass diligence packs drafted in minutes, with every claim linked to its source document.</p></article>
+          <article class="card"><div class="card__icon card__icon--mint"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l3 6.5 7 .9-5 4.8 1.2 7L12 17.9 5.8 21.2 7 14.2 2 9.4l7-.9L12 2z"/></svg></div><h4>Hidden-gem surfacing</h4><p>Strong fundamentals wrapped in a weak deck get flagged instead of filtered out.</p></article>
+          <article class="card"><div class="card__icon card__icon--mint"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M18 17V9M13 17V5M8 17v-4"/></svg></div><h4>Portfolio monitoring</h4><p>Track readiness across existing holdings and spot which companies are drifting before the board deck says so.</p></article>
+        </div>
+      </div>
+
+      <div class="tab-panel" data-panel="a">
+        <div class="grid grid-3">
+          <article class="card"><div class="card__icon card__icon--amber"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10L12 5 2 10l10 5 10-5z"/><path d="M6 12v5c0 1.7 2.7 3 6 3s6-1.3 6-3v-5"/></svg></div><h4>Cohort dashboards</h4><p>See every company in the programme on one readiness axis, updated weekly.</p></article>
+          <article class="card"><div class="card__icon card__icon--amber"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l6-6 4 4 8-8"/><path d="M17 7h4v4"/></svg></div><h4>Progress measurement</h4><p>Quantify what twelve weeks of programming actually changed, company by company.</p></article>
+          <article class="card"><div class="card__icon card__icon--amber"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></div><h4>Demo-day readiness</h4><p>Know which companies are ready to pitch and which need another six weeks — before you print the programme.</p></article>
+          <article class="card"><div class="card__icon card__icon--amber"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 00-4-4H6a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 00-3-3.87"/></svg></div><h4>Mentor allocation</h4><p>Route the right mentor to the right gap, based on the weakest scored dimension.</p></article>
+          <article class="card"><div class="card__icon card__icon--amber"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><path d="M9 13h6M9 17h4"/></svg></div><h4>Stakeholder reporting</h4><p>Generate LP, university or government reports with defensible, consistent metrics.</p></article>
+          <article class="card"><div class="card__icon card__icon--amber"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l9 5v10l-9 5-9-5V7z"/><path d="M12 12l9-5M12 12v10M12 12L3 7"/></svg></div><h4>Selection scoring</h4><p>Screen applications to your next cohort with the same rubric you'll graduate them against.</p></article>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ STATS ============ -->
+<section class="section--tight">
+  <div class="wrap reveal">
+    <div class="stats">
+      <div class="stat"><b><span data-to="3">0</span><em>.4</em>×</b><span>faster to a first term sheet, versus self-directed prep</span></div>
+      <div class="stat"><b><span data-to="41">0</span></b><span>signals evaluated per company, per run</span></div>
+      <div class="stat"><b>&lt;<span data-to="4">0</span> min</b><span>from upload to complete partner memo</span></div>
+      <div class="stat"><b><span data-to="92">0</span>%</b><span>of founders changed their deck after their first report</span></div>
+    </div>
+    <p class="form__note" style="margin-top:1rem;text-align:center">Figures reflect aggregated platform activity across participating startups and funds.</p>
+  </div>
+</section>
+
+<!-- ============ TESTIMONIALS ============ -->
+<section class="section">
+  <div class="wrap">
+    <div class="sec-head sec-head--center reveal">
+      <span class="eyebrow">In their words</span>
+      <h2>The feedback nobody gave them for free.</h2>
+    </div>
+
+    <div class="quotes">
+      <article class="quote reveal" data-d="1">
+        <div class="quote__mark">"</div>
+        <p>The report told us our CAC payback was the deal-breaker three weeks before a fund
+           told us the same thing. We fixed the pricing tier, re-ran it, and closed at a
+           valuation we wouldn't have asked for in March.</p>
+        <div class="quote__by">
+          <span class="quote__av" style="background:linear-gradient(135deg,#7D97FF,#4C69E8)">PR</span>
+          <div><b>Priya Raman</b><span>Co-founder &amp; CEO, Northbeam Labs</span></div>
+        </div>
+      </article>
+
+      <article class="quote reveal" data-d="2">
+        <div class="quote__mark">"</div>
+        <p>We see roughly two thousand decks a year. FounderOS gives me a consistent first read
+           on all of them, so partner time goes to the twenty that deserve it. It hasn't replaced
+           judgement — it's replaced the part before judgement.</p>
+        <div class="quote__by">
+          <span class="quote__av" style="background:linear-gradient(135deg,#33E0AE,#12A47B)">DO</span>
+          <div><b>Daniel Okoye</b><span>General Partner, Meridian Ventures</span></div>
+        </div>
+      </article>
+
+      <article class="quote reveal" data-d="3">
+        <div class="quote__mark">"</div>
+        <p>For the first time we can show our university board what twelve weeks of programming
+           actually did. Not testimonials — a measured delta across eighteen companies.</p>
+        <div class="quote__by">
+          <span class="quote__av" style="background:linear-gradient(135deg,#FFC069,#E89A32)">SM</span>
+          <div><b>Sarah Mbeki</b><span>Director, Ardent Accelerator</span></div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOUNDER'S NOTE ============ -->
+<section class="section--tight">
+  <div class="wrap reveal">
+    <div class="founder-note" style="grid-template-columns:170px 1fr">
+      <div class="founder-note__aside">
+        <div class="portrait portrait--round">
+          <span class="portrait__fallback">AB</span>
+          <img src="assets/img/adam-bocev-portrait.jpg" alt="Adam Bocev, Co-founder and CEO of FounderOS" loading="lazy" onerror="this.remove()">
+        </div>
+      </div>
+
+      <div class="founder-note__body">
+        <span class="eyebrow">From the founder</span>
+        <p class="lead" style="margin-bottom:.9rem">"I was told no eleven times before anyone explained
+           why. The twelfth investor spent four minutes on my unit economics and told me something my
+           own board hadn't — and I only got that conversation by accident.</p>
+        <p>FounderOS exists so no founder has to rely on that accident. Know the objections before
+           the meeting, and the meeting becomes a conversation instead of an audition."</p>
+
+        <div class="signature">
+          <div>
+            <div class="signature__name">Adam Bocev</div>
+            <div class="signature__role">Co-founder &amp; CEO, FounderOS</div>
+          </div>
+          <a href="https://www.linkedin.com/in/adam-bocev/" class="btn btn--li btn--sm" target="_blank" rel="noopener noreferrer" style="margin-left:auto">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 11-.02 5 2.5 2.5 0 01.02-5zM3 9h4v12H3zM10 9h3.8v1.65h.05c.53-.95 1.83-1.95 3.77-1.95 4.03 0 4.78 2.5 4.78 5.76V21h-4v-5.7c0-1.36-.03-3.1-1.95-3.1-1.95 0-2.25 1.47-2.25 3v5.8h-4z"/></svg>
+            Connect
+          </a>
+          <a href="about.html#founders-message" class="btn btn--ghost btn--sm">Read the full message</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="section section--alt">
+  <div class="wrap">
+    <div class="sec-head sec-head--center reveal">
+      <span class="eyebrow">Questions</span>
+      <h2>The things founders ask first.</h2>
+    </div>
+
+    <div class="faq reveal">
+      <div class="faq__item">
+        <button class="faq__q" aria-expanded="false">Is my confidential data safe?<i></i></button>
+        <div class="faq__a"><p>Yes. Documents are encrypted in transit and at rest, isolated to your workspace, and never used to train models — ours or anyone else's. You control who sees what, you can revoke access at any time, and you can delete your workspace and all derived artefacts permanently from settings.</p></div>
+      </div>
+      <div class="faq__item">
+        <button class="faq__q" aria-expanded="false">How accurate is an AI investment score?<i></i></button>
+        <div class="faq__a"><p>The score is a structured, benchmarked opinion — not a prediction of outcome. Its value is consistency: every company is assessed against the same stage-adjusted rubric, and every claim in the report links back to the document or data point that produced it. Treat it the way you'd treat a rigorous associate's first memo: a strong starting position that a human should still argue with.</p></div>
+      </div>
+      <div class="faq__item">
+        <button class="faq__q" aria-expanded="false">Do I need traction to use FounderOS?<i></i></button>
+        <div class="faq__a"><p>No. Pre-revenue and pre-product companies are scored against a pre-seed rubric that weights founder–market fit, problem evidence and speed of learning far more heavily than metrics. You'll get a readiness path rather than a valuation benchmark.</p></div>
+      </div>
+      <div class="faq__item">
+        <button class="faq__q" aria-expanded="false">Will investors actually see my report?<i></i></button>
+        <div class="faq__a"><p>Only if you choose to share it. Nothing is visible to any investor on the platform until you publish a snapshot and pick who receives it. Investor matching surfaces funds to you first — the introduction is always founder-initiated.</p></div>
+      </div>
+      <div class="faq__item">
+        <button class="faq__q" aria-expanded="false">What does it cost?<i></i></button>
+        <div class="faq__a"><p>Your first readiness snapshot is free. Paid founder plans start at $79/month for full multi-agent reports, coaching and investor matching. Funds, accelerators and institutions run on enterprise licences priced by portfolio size — see <a href="pricing.html" style="color:var(--accent-soft)">pricing</a>.</p></div>
+      </div>
+      <div class="faq__item">
+        <button class="faq__q" aria-expanded="false">Does this replace a real investor conversation?<i></i></button>
+        <div class="faq__a"><p>No, and it isn't meant to. FounderOS makes the conversation you eventually have a better one — you walk in already knowing the three objections, with the answers prepared. Capital still comes from people.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CTA ============ -->
+<section class="section--tight">
+  <div class="wrap reveal">
+    <div class="cta-band">
+      <h2>Find out what a partner would say.</h2>
+      <p>Upload your deck and get a free readiness snapshot in under four minutes.
+         No sales call required to see your score.</p>
+      <div class="btn-row">
+        <a href="contact.html" class="btn btn--primary btn--lg">Get my free snapshot
+          <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+        <a href="pricing.html" class="btn btn--ghost btn--lg">Compare plans</a>
+      </div>
+      <small>Free tier · No credit card · SOC 2 controls in place</small>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <a href="index.html" class="logo">
+          <svg class="logo__mark" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+            <rect width="32" height="32" rx="9" fill="url(#lgf)"/>
+            <path d="M10.5 22.5V9.5h11" stroke="#fff" stroke-width="2.5" stroke-linecap="round"/>
+            <path d="M10.5 16.4h7.6" stroke="#fff" stroke-width="2.5" stroke-linecap="round"/>
+            <circle cx="23" cy="22.2" r="2.6" fill="#33E0AE"/>
+            <defs><linearGradient id="lgf" x1="0" y1="0" x2="32" y2="32"><stop stop-color="#7D97FF"/><stop offset="1" stop-color="#4C69E8"/></linearGradient></defs>
+          </svg>
+          <span class="logo__text">Founder<span>OS</span></span>
+        </a>
+        <p>The venture intelligence layer for early-stage companies. Built so that good
+           businesses stop losing to better decks.</p>
+        <div class="footer__social">
+          <a href="https://www.linkedin.com/in/adam-bocev/" aria-label="Adam Bocev on LinkedIn" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 11-.02 5 2.5 2.5 0 01.02-5zM3 9h4v12H3zM10 9h3.8v1.65h.05c.53-.95 1.83-1.95 3.77-1.95 4.03 0 4.78 2.5 4.78 5.76V21h-4v-5.7c0-1.36-.03-3.1-1.95-3.1-1.95 0-2.25 1.47-2.25 3v5.8h-4z"/></svg></a>
+          <a href="#" aria-label="X"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.24 2.25h3.31l-7.23 8.26 8.5 11.24h-6.65l-5.22-6.82-5.96 6.82H1.68l7.73-8.84L1.25 2.25h6.82l4.71 6.23zm-1.16 17.52h1.83L7.02 4.13H5.06z"/></svg></a>
+          <a href="#" aria-label="GitHub"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12c0 4.42 2.87 8.17 6.84 9.5.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.53 2.34 1.09 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.56-1.11-4.56-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02.8-.22 1.65-.33 2.5-.33s1.7.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.69-4.57 4.94.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0022 12c0-5.52-4.48-10-10-10z"/></svg></a>
+        </div>
+      </div>
+
+      <div class="footer__col">
+        <h5>Platform</h5>
+        <a href="platform.html">Multi-agent analysis</a>
+        <a href="platform.html">Investment reports</a>
+        <a href="platform.html">Founder Score</a>
+        <a href="platform.html">Investor matching</a>
+        <a href="platform.html">Security</a>
+      </div>
+
+      <div class="footer__col">
+        <h5>Solutions</h5>
+        <a href="founders.html">For founders</a>
+        <a href="investors.html">For investors</a>
+        <a href="investors.html">For accelerators</a>
+        <a href="investors.html">For family offices</a>
+        <a href="investors.html">For public programmes</a>
+      </div>
+
+      <div class="footer__col">
+        <h5>Company</h5>
+        <a href="about.html">About</a>
+        <a href="about.html">Careers</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="contact.html">Contact</a>
+      </div>
+
+      <div class="footer__col">
+        <h5>Resources</h5>
+        <a href="platform.html">Sample report</a>
+        <a href="pricing.html">Plan comparison</a>
+        <a href="contact.html">Book a demo</a>
+        <a href="contact.html">Support</a>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <span>© <span data-year>2026</span> FounderOS Technologies. All rights reserved.</span>
+      <nav>
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Security</a>
+        <a href="#">Responsible AI</a>
+      </nav>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
